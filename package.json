@@ -1,19 +1,22 @@
 {
   "name": "vonder-trust",
   "version": "1.0.0",
-  "description": "",
+  "description": "a forked sprite-modified version of ncase.me/trust",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncase/trust.git"
+    "url": "git+https://github.com/korrio/vonder-trust.git"
+  },
+  "scripts": {
+    "deploy": "firebase deploy --only hosting"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ncase/trust/issues"
+    "url": "https://github.com/korrio/vonder-trust/issues"
   },
-  "homepage": "https://github.com/ncase/trust#readme"
+  "homepage": "https://trust.vonder.game"
 }
